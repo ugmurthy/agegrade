@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <age-grade />
+  
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AgeGrade from './components/ageGrade.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    AgeGrade
+    
   }
 }
 </script>
